@@ -1,6 +1,11 @@
 button{
     margin-right: 5px;
+    color:black;
 }
 label{
     padding:5px;
+}
+.headerBack {
+    background:#337ab7;
+    color:white;
 }
