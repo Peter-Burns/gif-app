@@ -3,11 +3,11 @@ var gifApp = {
     displayButtons: function (buttons) {
         if (Array.isArray(buttons)) {
             for (var i = 0; i < buttons.length; i++) {
-                $('#buttons').append($(`<button class='imgButton'>${buttons[i]}</button>`));
+                $('#buttons').append($(`<button class='btn imgButton'>${buttons[i]}</button>`));
             }
         }
         else {
-            $('#buttons').append($(`<button class='imgButton'>${buttons}</button>`));
+            $('#buttons').append($(`<button class='btn imgButton'>${buttons}</button>`));
         }
     }
 };
