@@ -26,7 +26,7 @@ $('body').on('click', '.imgButton', function () {
         var gifs = response.data;
         for (var i = 0; i < gifs.length; i++) {
             var newSpan = $('<span>');
-            newSpan.append($(`<span>Rating: ${gifs[i].rating}</span>`));
+            newSpan.append($(`<h3>Rating: ${gifs[i].rating}</h3>`));
             newSpan.append($(`<img state="still" data-still=${gifs[i].images.fixed_height_small_still.url} data-moving=${gifs[i].images.fixed_height_small.url} src = ${gifs[i].images.fixed_height_small_still.url}>`));
             $('#imageHolder').append(newSpan);
         }

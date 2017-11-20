@@ -9,3 +9,19 @@ label{
     background:#337ab7;
     color:white;
 }
+span{
+    float:left;
+    margin:10px;
+}
+input{
+    padding:5px;
+    margin:5px;
+}
+.mainBody{
+    min-height: calc(100vh - 50px);
+}
+footer{
+    text-align: center;
+    background: lightgrey;
+    padding:15px;
+}
